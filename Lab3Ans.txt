@@ -1,0 +1,62 @@
+BEGIN PROGRAM:
+Employee #12345678 inserted.
+Employee #34567890 inserted.
+Employee #23456789 inserted.
+BEGIN PRINT ALL:
+12345678  T.Nute       Planning         Supervisor       25.00
+23456789  S.Jones      Marketing        Secretary        16.00
+34567890  B.Smith      Shipping         ClerkI           17.50
+END PRINT ALL.
+Employee #13456789 inserted.
+Employee # 1234567 inserted.
+Print Employee: 34567890  B.Smith      Shipping         ClerkI           17.50
+Employee # 2345678 name updated to  S.Smith    
+Employee #23456789 pay updated from  16.00 to  27.00.
+Employee #23456789 title updated to  Trainee        
+Employee #23456789 department updated to  Manufacturing  
+Employee # 1234567 name updated to  B.Smith    
+Employee #34534565 inserted.
+Employee #36323232 inserted.
+BEGIN PRINT ALL:
+ 1234567  B.Smith      Cleaning         Supervisor       12.50
+12345678  T.Nute       Planning         Supervisor       25.00
+13456789  J.Jones      Design           Director         25.00
+23456789  S.Smith      Manufacturing    Secretary        27.00
+34534565  H.Nelson     Design           TeamLeaderI      26.50
+34567890  B.Smith      Shipping         ClerkI           17.50
+36323232  P.Jones      Design           TeamLeaderII     30.50
+END PRINT ALL.
+BEGIN PRINT DEPARTMENT: Design          
+13456789  J.Jones      Design           Director         25.00
+34534565  H.Nelson     Design           TeamLeaderI      26.50
+36323232  P.Jones      Design           TeamLeaderII     30.50
+END PRINT DEPARTMENT.
+Employee #23456789 deleted.
+Employee #  232323 inserted.
+Employee #45454545 inserted.
+Employee #34567890 pay updated from  17.50 to  35.00.
+Employee #12121212 inserted.
+Employee #12121212 title updated to  JanitorII      
+DE ERROR: Employee #11111111 not found.
+Employee #13456789 deleted.
+PI ERROR: Employee #11111111 not found.
+DE ERROR: Employee #23456789 not found.
+BEGIN PRINT DEPARTMENT: Cleaning        
+ 1234567  B.Smith      Cleaning         Supervisor       12.50
+END PRINT DEPARTMENT.
+BEGIN PRINT DEPARTMENT: Operations      
+ERROR: Department not found: Operations      
+END PRINT DEPARTMENT.
+PI ERROR: Employee #23456789 not found.
+Print Employee: 34534565  H.Nelson     Design           TeamLeaderI      26.50
+Employee # 1234567 deleted.
+BEGIN PRINT ALL:
+  232323  Y.Tittle     Marketing        Director         35.00
+12121212  B.Gates      JanitorII        JanitorI          3.50
+12345678  T.Nute       Planning         Supervisor       25.00
+34534565  H.Nelson     Design           TeamLeaderI      26.50
+34567890  B.Smith      Shipping         ClerkI           35.00
+36323232  P.Jones      Design           TeamLeaderII     30.50
+45454545  T.Tunes      Shipping         ClerkII           3.00
+END PRINT ALL.
+END PROGRAM.
